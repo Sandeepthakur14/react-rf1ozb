@@ -7,17 +7,16 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      name: 'React'
+      name: 'World',
+      owner:'Sandeep Thakur'
     };
   }
 
   render() {
     return (
       <div>
-        <Hello name={this.state.name} />
-        <p>
-          Start editing to see some magic happen :)
-        </p>
+        <Hello name={this.state.name}
+        owner={this.state.owner} />
       </div>
     );
   }
