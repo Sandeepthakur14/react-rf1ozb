@@ -3,7 +3,7 @@ function Todo(){
   return(
     <div>
       <input type="checkbox"/>
-      <span>Singing</span><br/>
+      <span className='Check'>Singing</span><br/>
       <input type="checkbox"/>
       <span>Dancing</span><br/>
       <input type="checkbox"/>
